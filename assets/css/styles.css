@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body{
+    min-height: 100vh;
+    background-position: center;/* 👉para centrar la img*/
+    background-repeat: no-repeat;/*👉 sirve para que no se repita la img en caso no entre*/
+    background-size: cover;/*👉sirve para que entre en toda el espacio de la cja*/
+    background-attachment: fixed;
+    background-image: url("https://allegra.flowersetcfresno.com/pic/6221173_full-fondos-de-pantalla-hd-diabolik-lovers-diabolik-lovers-wallpapers-73-images.jpg");
+}
+/* MENU  */
+.menu_responsive{
+    display: none;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a {
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius:20px;
+}
+header ul li a:hover,
+header ul li a.active{
+    background-color: white;
+    color: #2b1055;
+}
+@media screen and (max-width:860px) {
+    .menu_responsive{
+        display: block;
+        background-color: rgba(54, 49, 49, 0.719);
+        padding: 5px;
+        border-radius: 10px;
+    }
+    ul{
+        position:absolute;
+        top: 0px;
+        left:0px;
+        width: 50%;
+        height: 100vh;
+        flex-direction: column;
+        background: rgba(46, 42, 42, 0.815);
+        transform: translateX(-100%);
+        transition: .9s ease-out;
+    }
+    ul li{
+        padding: 50px;
+    }
+    .show{
+        transform: translateX(0%);
+
+    }    
+}
+
+@media screen and (max-width:600px) {
+    header{
+        padding: 30px 50px;
+    }
+    ul{
+        width:70%;
+    }
+}
+@media screen and (max-width:400px) {
+   
+    header{
+        padding: 30px 30px;
+    }
+}
+
+@media screen and (max-width:240px) {
+   
+    header{
+        padding: 30px 18px;
+    }
+}
+
+
+
+
+
+/* https://www.youtube.com/watch?v=1wfeqDyMUx4 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
