@@ -6,26 +6,28 @@
     font-family: "Poppins";
 }
 body{
-    min-height: 100vh;
     background-position: center;/* 👉para centrar la img*/
     background-repeat: no-repeat;/*👉 sirve para que no se repita la img en caso no entre*/
     background-size: cover;/*👉sirve para que entre en toda el espacio de la cja*/
     background-attachment: fixed;
-    background-image: url("https://allegra.flowersetcfresno.com/pic/6221173_full-fondos-de-pantalla-hd-diabolik-lovers-diabolik-lovers-wallpapers-73-images.jpg");
+    /* background-image: url("https://allegra.flowersetcfresno.com/pic/6221173_full-fondos-de-pantalla-hd-diabolik-lovers-diabolik-lovers-wallpapers-73-images.jpg"); */
 }
 /* MENU  */
 .menu_responsive{
     display: none;
 }
 header{
-    position: absolute;
+    z-index: 10;
+    position:static;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 21px 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(206, 105, 206);
+    box-shadow: #1c1b1d 20px;
 }
 
 header .logo{
@@ -57,7 +59,79 @@ header ul li a.active{
     background-color: white;
     color: #2b1055;
 }
+/* footer */
+footer{
+    background-color: #e02875;
+    padding-bottom: 0.1px;
+    
+}
+.footer-content{width: 92%;
+    margin: auto ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom:60px ;
+    align-items: center;
+}
+.contact-us{
+    color: #FFF;
+    width: 48%;
+}
+.brand{
+    font-weight: 700;
+    font-size: 40px;
+}
+.brand+p{
+    font-weight: 500;
+}
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.social-media-icon{
+display: inline-block;
+margin-left: 20px;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+text-align: center;
+cursor: pointer;
+text-align: center;
+border: 1px solid #fff;
+}
+
+.social-media-icon:hover{
+    background: rgba(0, 0, 0, 0.662);
+    color: #ffffff;
+}
+
+.social-media-icon i{
+    font-size:30px;
+    line-height:60px;color: #FFF;
+}
+    
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 60px;
+}
+
 @media screen and (max-width:860px) {
+    .contenedor--slider .item-slide img{
+        height: 80vw;
+    }
+    
+    .contenedor--slider{
+        width: 100%;
+        overflow: hidden;
+    }
+    
     .menu_responsive{
         display: block;
         background-color: rgba(54, 49, 49, 0.719);
@@ -74,6 +148,7 @@ header ul li a.active{
         background: rgba(46, 42, 42, 0.815);
         transform: translateX(-100%);
         transition: .9s ease-out;
+        z-index: 100;
     }
     ul li{
         padding: 50px;
@@ -81,7 +156,20 @@ header ul li a.active{
     .show{
         transform: translateX(0%);
 
-    }    
+    } 
+    .footer-content{
+        justify-content: center;
+    }
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+
+    }   
+    .contact-us{
+        text-align: center;
+        padding: 30px 0px;
+        letter-spacing: 1pt;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -91,21 +179,48 @@ header ul li a.active{
     ul{
         width:70%;
     }
+    .social-media{
+        width: 100%;
+    }
+    .contact-us{
+        width: 90%;
+        padding: 30px 5px;
+    }
+   header.logo{
+        font-size:1em;
+    }
+
+    .contenedor--slider .item-slide img{
+        height: 80vw;
+    }
 }
 @media screen and (max-width:400px) {
    
     header{
         padding: 30px 30px;
     }
+    .contact-us h2{
+        font-size: 25px;
+    }
+    
 }
 
-@media screen and (max-width:240px) {
+@media screen and (max-width:380px) {
    
     header{
         padding: 30px 18px;
     }
+    header  .logo{
+        font-size: 25px;
+    }
 }
-
+@media screen and (max-width:200px) {
+   
+    
+    header  .logo{
+        font-size: 15px;
+    }
+}
 
 
 

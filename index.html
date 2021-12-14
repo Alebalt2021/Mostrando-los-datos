@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
     <title>Document</title>
 </head>
 <body>
     <!-- Menu  -->
     <header>
-        <a href="#"class="logo">Logo</a> 
+        <a href="#"class="logo">AnimeWiKi</a> 
         <img src="assets/img/menu-regular-24.png" alt="menu" class="menu_responsive" id="menu">
         <ul class="menu_hidden" id="nav-menu">
 
@@ -20,9 +22,84 @@
             <li><a href="#">contact</a></li>
             
         </ul>
+       
         
     </header>
-    
+    <!-- slider -->
+    <section id="slider-body">
+        <div class="contenedor--slider">
+  
+               <input type="radio" id="1" name="image-slide" hidden="">
+            <input type="radio" id="2" name="image-slide" hidden="">
+            <input type="radio" id="3" name="image-slide" hidden="">
+              <input type="radio" id="4" name="image-slide" hidden="">
+            <input type="radio" id="5" name="image-slide" hidden="">
+
+            <div class="slide">
+
+                <div class="item-slide">
+                    <img src="https://gifimage.net/wp-content/uploads/2017/11/gif-anime-llorando-9.gif">
+                </div>
+                <div class="item-slide">
+                    <img src="https://media3.giphy.com/media/uKWBNet3fFTP9ZDZIg/giphy.gif">
+                </div>
+                <div class="item-slide">
+                    <img src="https://i.pinimg.com/originals/99/52/e6/9952e628a1c9ae47b6375c3540d9aa1d.gif">
+                </div>
+                <div class="item-slide">
+                    <img src="https://aniyuki.com/wp-content/uploads/2021/09/aniyuki-sad-anime-gif-63.gif">
+                </div>
+                <div class="item-slide">
+                    <img src="https://media1.giphy.com/media/OQYmdyH3A6NnW/giphy.gif?cid=ecf05e471fus9tdwo2b4ox0fp6vpnhglvtheitmmaveq30cr&rid=giphy.gif&ct=g">
+                </div>
+                
+
+                
+            </div>
+
+
+
+            <div class="pagination">
+
+                    <label class="pagination-item" for="1">
+                        <img src="https://gifimage.net/wp-content/uploads/2017/11/gif-anime-llorando-9.gif">
+                    </label>
+
+                    <label class="pagination-item" for="2">
+                        <img src="https://media3.giphy.com/media/uKWBNet3fFTP9ZDZIg/giphy.gif">
+                    </label>
+
+                    <label class="pagination-item" for="3">
+                        <img src="https://i.pinimg.com/originals/6a/32/c5/6a32c5c8680c61dc7a51a6210de56e53.gif">
+                    </label>
+
+
+                     <label class="pagination-item" for="4">
+                        <img src="https://aniyuki.com/wp-content/uploads/2021/09/aniyuki-sad-anime-gif-63.gif">
+                    </label>
+
+                    
+
+                     <label class="pagination-item" for="5">
+                        <img src="https://i.pinimg.com/originals/3b/95/38/3b95382e9e6161316e2ba90361134f7c.gif">
+                    </label>
+        </div>
+</section>
+<!-- footer -->
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">AnimeWiKi</h2>
+                <p>contactese con nosotros con njuestras redes sociales</p>
+            </div>
+            <div class="social-media">
+                <a href="https://es-la.facebook.com/" class="social-media-icon" target="BLANK"><i class="bx bxl-facebook" id="i"></i></a>
+                <a href="https://www.instagram.com/" class="social-media-icon" target="BLANK"><i class="bx bxl-instagram" id="i"></i></a>
+                <a href="https://www.youtube.com/" class="social-media-icon" target="BLANK"><i class="bx bxl-youtube" id="i"></i> </a>   
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
 </body>
 <script src="assets/js/js.js"></script>
 </html>
