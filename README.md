@@ -19,8 +19,8 @@ Durante el proceso de diseño...
 (Escribir aqui el resultado de tu proceso de investigación o research de tus usuarios) ....
 
 ## ___Prototipo de baja fidelidad___ 📁
-![Diapositiva2](https://user-images.githubusercontent.com/93567262/146845752-7d0797fb-a295-4edc-9c84-b8bafd45a9bc.jpg)
-![Diapositiva3](https://github.com/Alebalt2021/Mostrando-los-datos/blob/main/assets/img/Diapositiva3.JPG)
-![Diapositiva3](https://github.com/Alebalt2021/Mostrando-los-datos/blob/main/assets/img/Diapositiva4.JPG?raw=true)
+<img src="https://user-images.githubusercontent.com/93567262/146845752-7d0797fb-a295-4edc-9c84-b8bafd45a9bc.jpg" alt="drawing" width="550" height="300"/>
+<img src="https://github.com/Alebalt2021/Mostrando-los-datos/blob/main/assets/img/Diapositiva3.JPG" alt="drawing" width="550" height="300"/>
+<img src="https://github.com/Alebalt2021/Mostrando-los-datos/blob/main/assets/img/Diapositiva4.JPG?raw=true" alt="drawing" width="550" height="300"/>
 
 ## ___Prototipo de alta fidelidad___ 🔮
