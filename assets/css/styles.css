@@ -68,6 +68,7 @@ header ul li a:hover,
 header ul li a.active{
     background-color: white;
     color: #8ab3f0;
+    box-shadow: 0 0 5px rgb(101, 81, 163);
 }
 /* footer */
 footer{
@@ -92,10 +93,12 @@ footer{
     font-weight: 700;
     font-size: 40px;
     letter-spacing: 10px;
+    text-shadow: 0 0 4px black;
 }
 .brand+p{
     font-weight: 500;
     font-family: "Poppins";
+    text-shadow: 0 0 4px black;
 }
 .social-media{
     width: 50%;
@@ -116,7 +119,7 @@ border: 1px solid #fff;
 }
 
 .social-media-icon:hover{
-    background: rgba(243, 243, 243, 0.282);
+    background: rgba(155, 80, 161, 0.616);
     color: #8ab3f0;
 }
 

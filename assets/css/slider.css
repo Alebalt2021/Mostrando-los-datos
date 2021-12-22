@@ -47,25 +47,26 @@ background-image: url("https://i.pinimg.com/originals/79/9d/c7/799dc7bf0a8d3d94f
 }
 .content-div-parrafo   p{
     border-radius: 40px;
-    padding-top:20px;
-    background-color: rgba(255, 255, 255, 0.226);
-    color: rgb(255, 255, 255);
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.77);
+    color: rgb(49, 49, 49);
+    padding-bottom: 0px;
     
 }
 .content-div-parrafo   a{
     background-color:rgb(169, 131, 240) ;
     color: rgb(252, 252, 252);
-    padding: 10px 0px;
+    padding: 9px 0px;
     text-decoration: none;
     display: block;
     width: 100px;
-    margin:20px auto;
+    margin: 10px auto;
     border-radius: 20px;
 
 }
 .content-div-parrafo   a:hover{
-    background-color: rgba(255, 255, 255, 0.46);
-    color: rgb(106, 135, 161);
+    background-color: rgba(216, 202, 202, 0.753);
+    color: rgb(148, 93, 185);
 }
 .contenedor--slider{
     width: 100%;
