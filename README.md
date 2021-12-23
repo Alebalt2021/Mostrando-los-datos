@@ -1,5 +1,7 @@
 # 👩‍💻 Mostrando-los-datos 👩‍💻
-Paginas web con varios datos. Tema central: ANIME. Fecha de entrega limite: 26 de diciembre
+Es una pagina web con varios datos
+Tema central: ANIME
+Fecha de entrega limite: 26 de diciembre
 
 ![0025402678](https://imgmedia.aweita.pe/640x345/aweita/original/2021/08/30/612d9976066691528b1a02ce.webp)
 
@@ -8,11 +10,14 @@ Durante el proceso de diseño...
 
 ## ___Definicion del producto___ 🎯
 
-- **¿Quiénes son los principales usuarios del producto?** Los principales usuarios del producto son....
+- **¿Quiénes son los principales usuarios del producto?** 
+Los principales usuarios a los que va dirigida nuestro producto son todas aquellas personas interesadas en el anime, con aproximadamente una edad de entre los 12 hasta 23 años, ya que en la promedio, estas edades cuentan con mayor tiempo libre.
 
-- **¿Cuáles son los objetivos de estos usuarios en relación con tu producto?** Los objetivos de los usuarios con el producto son....
+- **¿Cuáles son los objetivos de estos usuarios en relación con tu producto?** 
+Los objetivos de los usuarios con el producto es conocer mejor la historia y los personajes de su anime favorito.
 
-- **¿Cómo crees que el producto que estás creando está resolviendo sus problemas?** Esta resolviendo el problema porque...
+- **¿Cómo crees que el producto que estás creando está resolviendo sus problemas?** 
+Esta resolviendo el problema porque brindara al usuaria la información del anime que este desea, además que se le dara algunas recomendaciones.
 
 ## ___Historias de usuario___ 👩‍💼
 
