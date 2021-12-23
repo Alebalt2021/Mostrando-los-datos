@@ -28,5 +28,6 @@ Esta resolviendo el problema porque brindara al usuaria la información del anim
 ## ___Prototipo de baja fidelidad___ 📁
 <img src="https://user-images.githubusercontent.com/93567262/146845752-7d0797fb-a295-4edc-9c84-b8bafd45a9bc.jpg" width="550" height="300"> <img src="https://github.com/Alebalt2021/Mostrando-los-datos/blob/main/assets/img/Diapositiva3.JPG" width="550" height="300"> <img src="https://github.com/Alebalt2021/Mostrando-los-datos/blob/main/assets/img/Diapositiva4.JPG?raw=true" width="550" height="300">
 
-
 ## ___Prototipo de alta fidelidad___ 🔮
+<img src="https://github.com/Alebalt2021/Mostrando-los-datos/blob/main/assets/img/Mostrando%20los%20Datos%20(1).png?raw=true" width="600" height="350">
+<img src="https://github.com/Alebalt2021/Mostrando-los-datos/blob/main/assets/img/Mostrando%20los%20Datos.png?raw=true" width="600" height="350">
