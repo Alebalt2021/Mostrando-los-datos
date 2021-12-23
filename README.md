@@ -1,4 +1,6 @@
 # 👩‍💻 Mostrando-los-datos 👩‍💻
+El proyecto mostrando los datos es una aplicación web para visualizar un conjunto (set) de datos que se adecúe a lo que descubre y necesita nuestro usuario. Permitiendo visualizar la data, filtrarla y ordenarla.
+
 Es una pagina web con varios datos
 Tema central: ANIME
 Fecha de entrega limite: 26 de diciembre
@@ -6,7 +8,7 @@ Fecha de entrega limite: 26 de diciembre
 ![0025402678](https://imgmedia.aweita.pe/640x345/aweita/original/2021/08/30/612d9976066691528b1a02ce.webp)
 
 ## ___Proceso de Diseño___ 🎨
-Durante el proceso de diseño...
+Durante el proceso de diseño nos hemos reunido a través de meet para coordinar; seguido nos repartimos las actividades pendientes entre todo el equipo y la organización la escribimos en una hoja de cálculo para fijar fechas de entregas límites. Después realizamos un prototipo de baja calidad en PowerPoint, el cual nos ayudó a conseguir una gran cantidad de información de la interacción entre la interfaz y el usuario. Luego hicimos el prototipo de alta calidad en FIGMA donde pudimos hacer varias pruebas de colores y las últimas modificaciones en cuanto a su estructura. También investigamos el significado de los colores que usamos para que así, el diseño final este equilibrado con el propósito de la página y la necesidad del cliente.
 
 ## ___Definicion del producto___ 🎯
 
