@@ -68,7 +68,6 @@ header ul li a:hover,
 header ul li a.active{
     background-color: white;
     color: #8ab3f0;
-    box-shadow: 0 0 5px rgb(101, 81, 163);
 }
 /* footer */
 footer{
@@ -93,12 +92,10 @@ footer{
     font-weight: 700;
     font-size: 40px;
     letter-spacing: 10px;
-    text-shadow: 0 0 4px black;
 }
 .brand+p{
     font-weight: 500;
     font-family: "Poppins";
-    text-shadow: 0 0 4px black;
 }
 .social-media{
     width: 50%;
@@ -149,6 +146,7 @@ border: 1px solid #fff;
     }
     
     .menu_responsive{
+        z-index: 100000;
         display: block;
         background-color: rgb(169, 131, 240);
         padding: 5px;
@@ -159,12 +157,12 @@ border: 1px solid #fff;
         top: 0px;
         left:0px;
         width: 50%;
-        height: 100vh;
+        height: 100%;
         flex-direction: column;
         background:rgb(169, 131, 240) ;
         transform: translateX(-100%);
         transition: .9s ease-out;
-        z-index: 100;
+        z-index: 100000;
     }
     ul li{
         padding: 50px;
