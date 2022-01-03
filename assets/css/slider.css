@@ -78,9 +78,9 @@ background-image: url("https://i.pinimg.com/originals/79/9d/c7/799dc7bf0a8d3d94f
 .slide{z-index: -100;
     display: flex;
     transform: translate3d(0, 0, 0);
-    transition: all 600ms;
+    transition: all 900ms;
     animation-name: autoplay;
-    animation-duration: 25.5s;
+    animation-duration: 30.5s;
     animation-direction: alternate;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
