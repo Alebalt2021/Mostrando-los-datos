@@ -258,7 +258,7 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
     }
     .content-div-parrafo p{
         font-size: 9px;
-        color: rgb(255, 255, 255);
+        color: rgb(59, 59, 59);
 }
 
 }
